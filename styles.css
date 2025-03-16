@@ -206,7 +206,7 @@ header #notification-icon {
 }
 
 .categories li {
-  display: inline;
+  display: inline-flex;
   font-size: 1.125rem;
   font-weight: bold;
   padding: 0.6rem 1.1rem;
