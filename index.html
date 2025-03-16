@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <aside class='sidebar'>
+        <div class="deep">
+            <ion-icon name="ellipse-sharp"></ion-icon>
+            <ion-icon name="ellipsis-horizontal-sharp"></ion-icon>
+        </div>
+        <nav class="sidebar-upper-part">
+            <ul class="links">
+                <li><ion-icon name="grid-outline"></ion-icon>Overview</li>
+                <li><ion-icon name="calendar-outline"></ion-icon> Tasks</li>
+                <li><ion-icon name="document-text-outline"></ion-icon>Documents</li>
+                <li><ion-icon name="clipboard-outline"></ion-icon>Notes</li>
+                <li><ion-icon name="stats-chart-outline"></ion-icon>Output</li>
+                <li><ion-icon name="call-outline"></ion-icon>Support</li>
+            </ul>
+            <ul class="sidebar-categories">
+                <div class="divider"></div>
+                <li>
+                <span class="circle" style="background-color: #ff6b6b;"></span>Projects
+                </li>
+                <li>
+                <span class="circle" style="background-color: #4ecdc4;"></span>Business
+                </li>
+                <li>
+                <span class="circle" style="background-color: #ffe66d;"></span>Personal
+                </li>
+                <li>
+                <span class="circle add-new">
+                    <ion-icon name="add-outline"></ion-icon>
+                </span>Add new
+                </li>
+                <div class="divider"></div>
+            </ul>
+        </nav>
+        
+        <div class="sidebar-footer">
+            <div class="social-icons">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div class="sidebar-footer-text">
+              2017 All rights reserved
+            </div>
+          </div>
+    </aside>
+
+    <header class="header">
+        <div class="search-section">
+            <ion-icon name="search-outline" class="searchcon"></ion-icon>
+            <input type="text" placeholder="Search" />
+        </div>
+    
+        <div class="user-section">
+            <ion-icon name="person-outline" class="user-icon"></ion-icon>
+            <p class="user">Hello, Peter!</p>
+            <ion-icon name="notifications-outline" id="notification-icon"></ion-icon>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="main-content">
+          <section class="categories">
+            <nav class="categories-left-side">
+                <ul>
+                    <li class="active">All</li>
+                    <li>Projects</li>
+                    <li>Business</li>
+                    <li>Personal</li>
+                </ul>
+                
+            </nav>
+            <p id="add-new-note">
+                <ion-icon name="add-circle-outline"></ion-icon>
+                <span>Add a new note</span>
+            </p>
+          </section>
+          
+          <section class="notes">
+            <div class="note">
+              <p class="date">October 10, 2023</p>
+              <div class="title-wrapper">
+                <span class="circle" style="background-color: #ff6b6b;"></span>
+                <h1 class="title">Note title</h1>
+              </div>
+              <p class="content">
+                This is the content of the note. ;D
+              </p>
+            </div>
+            <div class="note">
+              <p class="date">October 11, 2023</p>
+              <div class="title-wrapper">
+                <span class="circle" style="background-color: #4ecdc4;"></span>
+                <h1 class="title">Another note</h1>
+              </div>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtpIG-rXt0RGqCvBY1S7GdhbRY_l9Nj0mQvA&s" alt="Example image" class="content-image">
+            </div>
+            <div class="note">
+                <p class="date">October 10, 2023</p>
+                <div class="title-wrapper">
+                  <span class="circle" style="background-color: #ff6b6b;"></span>
+                  <h1 class="title">Note title</h1>
+                </div>
+                <p class="content">
+                    This is the content of the note. ;D
+                </p>
+              </div>
+              <div class="note">
+                <p class="date">October 11, 2023</p>
+                <div class="title-wrapper">
+                  <span class="circle" style="background-color: #4ecdc4;"></span>
+                  <h1 class="title">Another note</h1>
+                </div>
+                <img src="https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg" alt="Example image" class="content-image">
+              </div>
+              <div class="note">
+                <p class="date">October 11, 2023</p>
+                <div class="title-wrapper">
+                  <span class="circle" style="background-color: #4ecdc4;"></span>
+                  <h1 class="title">Another note</h1>
+                </div>
+                <img src="https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg" alt="Example image" class="content-image">
+                <p class="content">
+                    This is the content of the note. ;D
+                </p>
+                </div>
+              <div class="note">
+                <p class="date">October 10, 2023</p>
+                <div class="title-wrapper">
+                  <span class="circle" style="background-color: #ff6b6b;"></span>
+                  <h1 class="title">Note title</h1>
+                </div>
+                <p class="content">
+                  This is the content of the note. ;D
+                </p>
+              </div>
+              <div class="note">
+                <p class="date">October 11, 2023</p>
+                <div class="title-wrapper">
+                  <span class="circle" style="background-color: #4ecdc4;"></span>
+                  <h1 class="title">Another note</h1>
+                </div>
+                <img src="https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg" alt="Example image" class="content-image">
+              </div>
+              <div class="note">
+                <p class="date">October 10, 2023</p>
+                <div class="title-wrapper">
+                  <span class="circle" style="background-color: #ff6b6b;"></span>
+                  <h1 class="title">Note title</h1>
+                </div>
+                <p class="content">
+                  This is the content of the note. ;D
+                </p>
+              </div>
+              <div class="note">
+                <p class="date">October 11, 2023</p>
+                <div class="title-wrapper">
+                  <span class="circle" style="background-color: #4ecdc4;"></span>
+                  <h1 class="title">Another note</h1>
+                </div>
+                <img src="https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg" alt="Example image" class="content-image">
+                <p class="content">
+                    This is the content of the note. ;D
+                </p>
+                </div>
+              <div class="note">
+                <p class="date">October 10, 2023</p>
+                <div class="title-wrapper">
+                  <span class="circle" style="background-color: #ff6b6b;"></span>
+                  <h1 class="title">Note title</h1>
+                </div>
+                <p class="content">
+                  This is the content of the note. ;D
+                </p>
+              </div>
+              <div class="note">
+                <p class="date">October 11, 2023</p>
+                <div class="title-wrapper">
+                  <span class="circle" style="background-color: #4ecdc4;"></span>
+                  <h1 class="title">Another note</h1>
+                </div>
+                <img src="https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg" alt="Example image" class="content-image">
+              </div>
+          </div>
+        </section>
+    </main>
+</body>
+</html>
